@@ -35,24 +35,24 @@ Order ID, Order Date / Ship Date, Customer ID / Segment, Region / State / City, 
 - Quarter  
 - Discount Status
 
-## Data Cleaning & Preparation (Excel)
+## Data Cleaning & Preparation (Power Query)
 
 Before analysis, the dataset was transformed into a structured analytical model.
 
 1. **Data Type Standardisation**  
-   Converted Order Date and Ship Date from text to proper date format  
-   Standardised numeric fields (Sales, Profit, Discount, Quantity)  
-   Ensured consistent decimal precision
+   - Converted Order Date and Ship Date from text to proper date format
+   - Standardised numeric fields (Sales, Profit, Discount, Quantity)  
+   - Ensured consistent decimal precision
 
 2. **Text Cleaning**  
-   Removed extra spaces using TRIM  
-   Standardised category and segment naming conventions  
-   Ensured consistent state and region formatting
+   - Removed extra spaces using TRIM  
+   - Standardised category and segment naming conventions  
+   - Ensured consistent state and region formatting
 
 3. **Missing & Anomaly Checks**  
-   Validated negative profit entries  
-   Checked for blank customer IDs or product IDs  
-   Flagged extreme discount levels for investigation
+   - Validated negative profit entries  
+   - Checked for blank customer IDs or product IDs  
+   - Flagged extreme discount levels for investigation
 
 4. **Feature Engineering**  
    Created analytical columns:  
