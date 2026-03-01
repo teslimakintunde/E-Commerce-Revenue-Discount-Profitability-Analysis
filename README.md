@@ -84,21 +84,18 @@ These engineered fields enabled profitability segmentation and time-based analys
    - Discounts ≥0.3 consistently reduced margin  
    - High discounts (0.6–0.8) produced negative margins
 
-3. **KPI Framework Design**  
-   Designed executive-level KPIs within Excel dashboard:  
+3. **Executive-Level KPIs Designed**
+The dashboard was structured around strategic KPIs:
+- Gross Profit Margin %
+- Discounted Sales Ratio
+- Profit Leakage from Discounting
+- Profit by Category
+- Profit by Region
+- High-Risk Discount Rate
+- Average Profit per Order
 
-   **Core KPIs**  
-   - Total Sales  
-   - Total Profit  
-   - Gross Profit Margin %  
-   - Discounted Sales Ratio %  
-   - Profit Leakage from Discounting  
+These KPIs transform raw data into decision intelligence.
 
-   **Strategic KPIs**  
-   - Profit by Category  
-   - Profit by Region  
-   - Profit by Customer Segment  
-   - High-Risk Discount Rate (% of transactions with margin <0)
 
 ## Key Findings
 
@@ -117,23 +114,7 @@ These engineered fields enabled profitability segmentation and time-based analys
 4. **Category & Segment Imbalance**  
    Certain categories (e.g., Technology with high discounting) showed volatile margins compared to more stable categories like Office Supplies.
 
-## Dashboard Design (Excel)
-
-The final Excel dashboard includes:
-
-- **Executive Summary Panel**  
-  Total Revenue, Total Profit, Gross Margin %, Discounted Sales %, Profit Leakage
-
-- **Profit Drivers**  
-  Profit by Category (Bar Chart), Profit by Segment, Profit by Region
-
-- **Risk Monitoring**  
-  Discount vs Margin Scatter Plot, Monthly Margin Trend, High-Risk Discount Alert Indicator
-
-All visuals powered by Pivot Tables and slicers for dynamic filtering.
-
 ## Strategic Recommendations
-
 - Cap standard discounts at ≤20%
 - Require approval for discounts ≥30%
 - Align sales incentives with profit margin, not revenue volume
@@ -143,6 +124,7 @@ All visuals powered by Pivot Tables and slicers for dynamic filtering.
 ## Tech Stack
 
 - Microsoft Excel
+- Power Pivot
 - Pivot Tables
 - Pivot Charts
 - Advanced Formulas
